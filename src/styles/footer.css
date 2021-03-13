@@ -1,0 +1,11 @@
+.footer {
+    display: grid;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    padding: 10px;
+    margin: 10px;
+    text-transform: lowercase;
+}
