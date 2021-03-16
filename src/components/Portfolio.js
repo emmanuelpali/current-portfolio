@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+ import React, {useState} from 'react';
 import portfolioContent from '../DATA/data';
 import '../styles/portfolio.css'
 
