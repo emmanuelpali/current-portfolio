@@ -1,11 +1,32 @@
 import movie from '../images/movie.png';
 import library from '../images/library.png';
 import Todo from '../images/to-do-list.png';
+import news from '../images/news.png';
 
 const portfolioContent = [
     
     { 
         id:1,
+        thumb: movie,
+        alt: "Movie search home page",
+        appName: "Sixth Media",
+        description: "This is my first React application. It utilises The Movie Database API to allow users search for movies. Users can create a list of their favourite movies simply by liking them. I tried being adventurous by employing stylled components, it worked but it certainly won't be my go to.",
+        shortDescription: "React application developed using React, Local Storage and The Movie Database API",
+        webAddress: "https://www.paliemmanuel.com/movie-search/",
+
+    },
+    { 
+        id:2,
+        thumb: news,
+        alt: "",
+        appName: "News Search",
+        description: "Here, I worked with the NYT API to create this simple application",
+        shortDescription: "This is a basic JavaScript app which allows you to search for articles.",
+        webAddress: "https://www.paliemmanuel.com/fresh-news",
+
+    },
+    { 
+        id:3,
         thumb: library,
         alt: "Library home page",
         appName: "Online Library",
@@ -15,17 +36,7 @@ const portfolioContent = [
 
     },
     { 
-        id:2,
-        thumb: movie,
-        alt: "Movie search home page",
-        appName: "Sixth Media",
-        description: "This is my first React application. It utilises The Movie Database API to allow users search for movies. Users can create a list of their favourite movies simply by liking them. I tried being adventurous by employing stylled components, it worked but it certainly won't be my go to.",
-        shortDescription: "React application developed using React as stated, Local Storage and The Movie Database API",
-        webAddress: "https://www.paliemmanuel.com/movie-search/",
-
-    },
-    { 
-        id:3,
+        id:4,
         thumb: Todo,
         alt: "Planned page",
         appName: "Planned!",
