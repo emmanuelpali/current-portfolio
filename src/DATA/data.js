@@ -1,48 +1,36 @@
+import curry from '../images/curry.png';
 import movie from '../images/movie.png';
-import library from '../images/library.png';
-import Todo from '../images/to-do-list.png';
-import news from '../images/news.png';
+import epTheme from '../images/epTheme.png';
 
 const portfolioContent = [
-    
     { 
         id:1,
-        thumb: movie,
-        alt: "Movie search home page",
-        appName: "Sixth Media",
-        description: "This is my first React application. It utilises The Movie Database API to allow users search for movies. Users can create a list of their favourite movies simply by liking them. I used stylled components.",
-        shortDescription: "The application also utilises Local Storage ",
-        webAddress: "https://www.paliemmanuel.com/movie-search/",
+        thumb: curry,
+        alt: "",
+        appName: "Curry&Proud",
+        description: "This application is still being developed. At this stage, using the credentials provided, users are able to login, shop and complete payment using paypal. The completed application should allow buyers create acounts, shop and much more. To login now, use: somethingsomething@gmail.com for the email field and 4321 as the password. to test paypal: sb-0qky66219908@personal.example.com password O>16Q|n3", 
+        shortDescription: "This is a fullstack MERN App. It is hosted for free on heroku, may take some seconds to load",
+        webAddress: "https://curryandproud.herokuapp.com/",
 
     },
     { 
         id:2,
-        thumb: news,
-        alt: "",
-        appName: "News Search",
-        description: "Here, I worked with the NYT API to create this simple application. Similar to the movie search app, this was intended to give me more exposure to working with a third party API",
-        shortDescription: "This is a basic JavaScript app which allows you to search for articles.",
-        webAddress: "https://www.paliemmanuel.com/fresh-news",
+        thumb: movie,
+        alt: "Movie search home page",
+        appName: "Sixth Media",
+        description: "This is my first React application. It utilises The Movie Database API to allow users search for movies. Users can create a list of their favourite movies simply by liking them. It utilizes local storage.",
+        shortDescription: "This is a Movies search application ",
+        webAddress: "https://www.paliemmanuel.com/movie-search/",
 
     },
     { 
         id:3,
-        thumb: library,
-        alt: "Library home page",
-        appName: "Online Library",
-        description: "This is my first attempt at understanding backend development.",
-        shortDescription: "This is a basic CRUD application developed using Express, Node.js, Pug(Jade) and MongoDB",
-        webAddress: "https://ancient-refuge-27465.herokuapp.com/catalog",
-
-    },
-    { 
-        id:4,
-        thumb: Todo,
-        alt: "Planned page",
-        appName: "Planned!",
-        description: "The functionality of this application can be applied in developing, online shopping carts, restaurant ordering systems and the likes. This application itself lets you create a list of things to be done. It could be a shopping list, checklist foir your baby sitter etc.",
-        shortDescription: "This is another React application that showcases the capabilities of the React framework",
-        webAddress: "https://www.paliemmanuel.com/to-do-list",
+        thumb: epTheme,
+        alt: "",
+        appName: "Whistler",
+        description: "In web development wordpress has a good market share, here I have put my PHP knowlegde in good news. It started as plain HTML, CSS and javaScript before converting it to a wordpress theme.",
+        shortDescription: "This is a custom wordpress theme",
+        webAddress: "https://www.paliemmanuel.com/epTheme",
 
     },
 
