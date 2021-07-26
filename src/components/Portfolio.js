@@ -17,7 +17,7 @@ function Portfolio () {
                             <p>{item.shortDescription}</p>
                             <span>....</span>
                             <p>{item.description}</p>
-                            <a href={item.webAddress} rel="noreferrer" target="_blank">Live Site</a>
+                            <a href={item.webAddress} rel="noreferrer" target="_blank">View</a>
                         </div>
                     </div> 
                 )}
