@@ -1,4 +1,4 @@
-import students from '../images/curry.png';
+import students from "../images/students.png";
 import curry from '../images/curry.png';
 import movie from '../images/movie.png';
 import trucking from '../images/trucking-home.png';
@@ -11,7 +11,7 @@ const portfolioContent = [
         appName: "Class List",
         description: "This application displays a list of students onload. Users are able to search a student by name. Toggle student's grades and add tags to individual students. This application employs localstorage to store the tags", 
         shortDescription: "A Front End application developed using React",
-        webAddress: "https://github.com/Thesixth/mern-dispatch",
+        webAddress: "https://www.paliemmanuel.com/class/",
 
     },
     { 
