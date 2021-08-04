@@ -1,8 +1,19 @@
+import students from '../images/curry.png';
 import curry from '../images/curry.png';
 import movie from '../images/movie.png';
 import trucking from '../images/trucking-home.png';
 
 const portfolioContent = [
+    { 
+        id:4,
+        thumb: students,
+        alt: "",
+        appName: "Class List",
+        description: "This application displays a list of students onload. Users are able to search a student by name. Toggle student's grades and add tags to individual students. This application employs localstorage to store the tags", 
+        shortDescription: "A Front End application developed using React",
+        webAddress: "https://github.com/Thesixth/mern-dispatch",
+
+    },
     { 
         id:1,
         thumb: trucking,
@@ -18,8 +29,8 @@ const portfolioContent = [
         thumb: movie,
         alt: "Movie search home page",
         appName: "Sixth Media",
-        description: "This is my first React application. It utilises The Movie Database API to allow users search for movies. Users can create a list of their favourite movies simply by liking them. It utilizes local storage.",
-        shortDescription: "This is a Movies search application ",
+        description: "The application utilises The Movie Database API to allow users search for movies. Users can create a list of their favourite movies simply by liking them. It utilizes local storage.",
+        shortDescription: "This is a React application. Made my first API call while developing this application.",
         webAddress: "https://www.paliemmanuel.com/movie-search/",
 
     },

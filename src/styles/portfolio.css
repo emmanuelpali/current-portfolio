@@ -2,7 +2,6 @@
     display: grid;
     justify-items: center;
     font-size: 1.0em;
-
     box-sizing: border-box;
     
 }
@@ -61,6 +60,11 @@ img {
     text-transform: uppercase;
 }
 
+i {
+    background-color: #ffbb00;
+    padding: 2px 12px;
+}
+
 a, button{ 
     margin: 10px 0;
     text-decoration: none;
@@ -74,9 +78,6 @@ a, button{
     transition: all 0.4s ease 0s;
 }
 
-button {
-    background-color: #b6becb;
-}
 
 a:hover, .projects-view:hover  {
 background: #b6becb;
