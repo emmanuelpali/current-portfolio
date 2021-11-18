@@ -6,7 +6,6 @@ import '../styles/portfolio.css';
 
 function Portfolio () {
     const data = portfolioContent;
-    const [projects, setProjects] = useState(data)
     const [projectId, setProjectId] = useState(null)
     const [display, setDisplay] = useState(false)
     function handleDisplay(id)  {
@@ -17,7 +16,7 @@ function Portfolio () {
         return (
             <div className="main-content">
                 <h2>My Projects</h2>
-                {projects.map((item) =>
+                {data.map((item) =>
                     <div className="card" key={item.id}>
                         <div className="card-img">
                             <img src={item.thumb} alt={item.alt} />
