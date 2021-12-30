@@ -9,7 +9,7 @@ const About = () => {
                 <img className='aboutImage' src={Pali} alt="Emmanuel smiling"/>
             </div>
             <div className="about-content-display-absolute">
-                <p className="about-content-p">I am a web developer based in Vancouver. Currently looking for an opportunity to apply my skills and knowledge in building creative technologies. Away from my computer I enjoy writing, running and the mountains.</p>
+                <p className="about-content-p">I am an applications developer who is experienced in JavaScript, React, Nodejs/Express, Wordpress, CSS/SASS and HTML. I am currently looking for an opportunity to apply my skills and knowledge in building cutting edge technologies and solving problems.</p>
             </div>
             <div>
                 <p  className="arrow-down">&#8595;</p>
