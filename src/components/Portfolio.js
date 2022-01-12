@@ -8,12 +8,12 @@ function Portfolio() {
   const [projectId, setProjectId] = useState([]);
   const [display, setDisplay] = useState([]);
   function handleDisplay(id) {
-    if (projectId.indexOf(id) > -1) {
-      setDisplay((display) => display.splice(display.indexOf(id), 1));
-      setProjectId((projectId) => projectId.splice(projectId.indexOf(id), 1));
-    } else {
+    if (display.indexOf(id) === -1) {
       setDisplay((display) => [...display, id]);
       setProjectId((projectId) => [...projectId, id]);
+    } else if (projectId.indexOf(id) > -1) {
+      setDisplay((display) => display.splice(display.indexOf(id), 1));
+      setProjectId((projectId) => projectId.splice(projectId.indexOf(id), 1));
     }
   }
 
@@ -35,12 +35,12 @@ function Portfolio() {
                 <h2>User Story</h2>
                 <p>{item.description}</p>
                 <button onClick={() => handleDisplay(item.id)}>
-                  <i className="fa fa-minus" aria-hidden="true"></i>
+                  <i class="fa fa-minus" aria-hidden="true"></i>
                 </button>
               </>
             ) : (
               <button onClick={() => handleDisplay(item.id)}>
-                <i className="fa fa-plus" aria-hidden="true"></i>
+                <i class="fa fa-plus" aria-hidden="true"></i>
               </button>
             )}
             <a href={item.webAddress} rel="noreferrer" target="_blank">
