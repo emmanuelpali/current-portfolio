@@ -29,8 +29,7 @@ function Portfolio() {
             <h2>{item.appName}</h2>
             <span>....</span>
             <p>{item.shortDescription}</p>
-            {display.indexOf(item.id) > -1 &&
-            projectId.indexOf(item.id) > -1 ? (
+            {display.indexOf(item.id) > -1 ? (
               <>
                 <h2>User Story</h2>
                 <p>{item.description}</p>
