@@ -11,7 +11,7 @@ function Portfolio() {
     if (display.indexOf(id) === -1) {
       setDisplay((display) => [...display, id]);
       setProjectId((projectId) => [...projectId, id]);
-    } else if (projectId.indexOf(id) > -1) {
+    } else if (display.indexOf(id) > -1) {
       setDisplay((display) => display.splice(display.indexOf(id), 1));
       setProjectId((projectId) => projectId.splice(projectId.indexOf(id), 1));
     }
@@ -29,7 +29,8 @@ function Portfolio() {
             <h2>{item.appName}</h2>
             <span>....</span>
             <p>{item.shortDescription}</p>
-            {display.indexOf(item.id) > -1 ? (
+            {display.indexOf(item.id) > -1 &&
+            projectId.indexOf(item.id) > -1 ? (
               <>
                 <h2>User Story</h2>
                 <p>{item.description}</p>
