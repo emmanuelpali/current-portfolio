@@ -5,13 +5,16 @@ import "../styles/portfolio.css";
 
 function Portfolio() {
   const data = portfolioContent;
-  const [projectID, setProjectID] = useState();
-  const [display, setDisplay] = useState(false);
-  function handleDisplay(id) {
-    console.log(id);
-    setDisplay((display) => !display);
-    setProjectID(id);
-  }
+  const [display, setDisplay] = useState([]);
+  const handleDisplay = (id) => {
+    if (display.includes(id)) {
+      setDisplay(display.filter((itemId) => itemId !== id));
+    } else {
+      let newDisplay = [...display];
+      newDisplay.push(id);
+      setDisplay(newDisplay);
+    }
+  };
 
   return (
     <div className="main-content">
@@ -25,19 +28,19 @@ function Portfolio() {
             <h2>{item.appName}</h2>
             <span>....</span>
             <p>{item.shortDescription}</p>
-            {display && projectID === item.id ? (
+            <button id={item.id} onClick={() => handleDisplay(item.id)}>
+              {display.includes(item.id) ? (
+                <i className="fa fa-minus"></i>
+              ) : (
+                <i className="fa fa-plus"></i>
+              )}
+            </button>
+            {display.includes(item.id) ? (
               <>
                 <h2>User Story</h2>
                 <p>{item.description}</p>
-                <button onClick={() => handleDisplay(item.id)}>
-                  <i class="fa fa-minus" aria-hidden="true"></i>
-                </button>
               </>
-            ) : (
-              <button onClick={() => handleDisplay(item.id)}>
-                <i class="fa fa-plus" aria-hidden="true"></i>
-              </button>
-            )}
+            ) : null}
             <a href={item.webAddress} rel="noreferrer" target="_blank">
               View
             </a>
