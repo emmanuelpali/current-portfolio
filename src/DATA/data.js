@@ -10,7 +10,7 @@ const portfolioContent = [
     alt: "",
     appName: "Space Window",
     description:
-      "The application displays 12 images from NASA's apod API. User's are able to like and unlike images. A user can go back in time by choosing a date for images to be displayed.",
+      "The application displays 12 images from NASA's apod API. Users are able to like and unlike images. A user can go pick a date to view images taken before that day.",
     shortDescription:
       "This react application has been published using git-hub pages",
     webAddress: "https://thesixth.github.io/spacewindow/",
