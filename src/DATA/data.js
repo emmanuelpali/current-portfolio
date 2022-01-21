@@ -1,9 +1,20 @@
-import curry from "../images/curry.png";
+import spacewindow from "../images/spacewindow.png";
 import trucking from "../images/trucking-home.png";
 import kenbc from "../images/wordpress.png";
 import students from "../images/students.png";
 
 const portfolioContent = [
+  {
+    id: 1,
+    thumb: spacewindow,
+    alt: "",
+    appName: "Space Window",
+    description:
+      "The application displays 12 images from NASA's apod API. User's are able to like and unlike images. A user can go back in time by choosing a date for images to be displayed.",
+    shortDescription:
+      "This react application has been published using git-hub pages",
+    webAddress: "https://thesixth.github.io/spacewindow/",
+  },
   {
     id: 2,
     thumb: students,
@@ -15,7 +26,7 @@ const portfolioContent = [
     webAddress: "https://master.d1w2t2e2vja4em.amplifyapp.com/",
   },
   {
-    id: 1,
+    id: 3,
     thumb: trucking,
     alt: "",
     appName: "Dispatch",
@@ -26,7 +37,7 @@ const portfolioContent = [
     webAddress: "https://github.com/Thesixth/mern-dispatch",
   },
   {
-    id: 3,
+    id: 4,
     thumb: kenbc,
     alt: "",
     appName: "KENBC",
