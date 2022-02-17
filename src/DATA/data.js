@@ -36,17 +36,6 @@ const portfolioContent = [
       "This is a fullstack MERN App. The code can be viewed on github",
     webAddress: "https://github.com/Thesixth/mern-dispatch",
   },
-  {
-    id: 4,
-    thumb: kenbc,
-    alt: "",
-    appName: "KENBC",
-    description:
-      "For this web application, I used elementor to make it easy for the community members to customize the website without relying on me to maintain every little detail. ",
-    shortDescription:
-      "This is a wordpress application built for a community in BC",
-    webAddress: "https://kenyacommunitybc.org/",
-  },
 ];
 
 export default portfolioContent;
