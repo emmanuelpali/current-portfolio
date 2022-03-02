@@ -1,9 +1,20 @@
 import spacewindow from "../images/spacewindow.png";
 import trucking from "../images/trucking-home.png";
-import kenbc from "../images/wordpress.png";
+import vanhike from "../images/vanhike.png";
 import students from "../images/students.png";
 
 const portfolioContent = [
+  {
+    id: 4,
+    thumb: vanhike,
+    alt: "",
+    appName: "VanHike",
+    description:
+      "Vanhike was developed with Node. I explored EJS as the view engine. Used passport for authentication, cloudinary for image uploads, Mapbox etc. I will keep working on the application design and also make it more secure. The application is hosted on heroku for free. Loading may take some seconds",
+    shortDescription:
+      "An Express web application that allows users to share their hiking experiences and images.",
+    webAddress: "https://vanhike.herokuapp.com/",
+  },
   {
     id: 1,
     thumb: spacewindow,
