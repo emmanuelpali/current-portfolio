@@ -1,7 +1,5 @@
-import { indexOf } from "lodash";
 import React, { useState } from "react";
 import portfolioContent from "../DATA/data";
-import "../styles/portfolio.css";
 
 function Portfolio() {
   const data = portfolioContent;
@@ -28,7 +26,11 @@ function Portfolio() {
             <h2>{item.appName}</h2>
             <span>....</span>
             <p>{item.shortDescription}</p>
-            <button id={item.id} onClick={() => handleDisplay(item.id)}>
+            <button
+              className="btn"
+              id={item.id}
+              onClick={() => handleDisplay(item.id)}
+            >
               {display.includes(item.id) ? (
                 <i className="fa fa-minus"></i>
               ) : (
@@ -41,7 +43,12 @@ function Portfolio() {
                 <p>{item.description}</p>
               </>
             ) : null}
-            <a href={item.webAddress} rel="noreferrer" target="_blank">
+            <a
+              href={item.webAddress}
+              rel="noreferrer"
+              target="_blank"
+              className="btn"
+            >
               View
             </a>
           </div>

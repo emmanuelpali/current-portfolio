@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  //this defines that 1rem is. sets it for the entire site
+  //for things like font-size: 1.5rem
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: $default-font-size;
+  margin: 0;
+  padding: 0;
+  color: $color-white;
+  background-color: $color-primary;
+}
