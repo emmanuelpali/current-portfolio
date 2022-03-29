@@ -13,7 +13,7 @@ const Footer = () => {
           <i className="fa fa-envelope"> email</i>
         </a>
         <a
-          href="https://www.linkedin.com/in/emmanuelpaliwebdeveloper/"
+          href="https://www.linkedin.com/in/emmanuelpaliwebdeveloper"
           rel="noreferrer"
           target="_blank"
         >
@@ -24,7 +24,7 @@ const Footer = () => {
         </a>
       </div>
       <a
-        href="https://www.linkedin.com/in/emmanuelpaliwebdeveloper/"
+        href="https://www.linkedin.com/in/emmanuelpaliwebdeveloper"
         rel="noreferrer"
         target="_blank"
       >
