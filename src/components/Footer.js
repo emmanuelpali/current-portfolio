@@ -6,14 +6,14 @@ const Footer = () => {
       <p>Do you have an idea you want to work on? Let's Connect</p>
       <div className="contact">
         <a
-          href="mailto:emmanuel@paliemmanuel.com"
+          href="mailto:paliemmanuel@gmail.com"
           rel="noreferrer"
           target="_blank"
         >
           <i className="fa fa-envelope"> email</i>
         </a>
         <a
-          href="https://www.linkedin.com/in/emmanuelpaliwebdeveloper"
+          href="https://linkedin.com/in/emmanuelpaliwebdeveloper"
           rel="noreferrer"
           target="_blank"
         >
@@ -24,7 +24,7 @@ const Footer = () => {
         </a>
       </div>
       <a
-        href="https://www.linkedin.com/in/emmanuelpaliwebdeveloper"
+        href="https://linkedin.com/in/emmanuelpaliwebdeveloper"
         rel="noreferrer"
         target="_blank"
       >
