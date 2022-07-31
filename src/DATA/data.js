@@ -1,9 +1,20 @@
 import spacewindow from "../images/spacewindow.png";
-import trucking from "../images/trucking-home.png";
+import liquidSix from "../images/liquidSix.png";
 import vanhike from "../images/vanhike.png";
 import students from "../images/students.png";
 
 const portfolioContent = [
+  {
+    id: 3,
+    thumb: liquidSix,
+    alt: "",
+    appName: "Liquid Six",
+    description:
+      "This is a restaurant design I intend to show prospective client when freelancing. I enjoyed working on this because it gave me the opportunity to explore my creative and writing skills.",
+    shortDescription:
+      "The application was developed and designed using React, Node, Bootstrap and SASS. It is hosting on Heroku",
+    webAddress: "https://protected-ridge-51693.herokuapp.com",
+  },
   {
     id: 4,
     thumb: vanhike,
@@ -36,17 +47,7 @@ const portfolioContent = [
     shortDescription: "This is a React application hosted on AWS",
     webAddress: "https://master.d1w2t2e2vja4em.amplifyapp.com/",
   },
-  {
-    id: 3,
-    thumb: trucking,
-    alt: "",
-    appName: "Dispatch",
-    description:
-      "This is a web app that a trucking company can use to create and send dispatches to it's drivers. I integrated Twilio to send text messages as dispatches to the driver",
-    shortDescription:
-      "This is a fullstack MERN App. The code can be viewed on github",
-    webAddress: "https://github.com/Thesixth/mern-dispatch",
-  },
+  
 ];
 
 export default portfolioContent;

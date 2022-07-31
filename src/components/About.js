@@ -9,7 +9,7 @@ const About = () => {
       </div>
       <div className="about-content-display-absolute">
         <p className="about-content-p">
-          I am a Front End developer who is experienced in JavaScript, React,
+          I am an application's developer who is experienced in JavaScript, React,
           Nodejs/Express, Wordpress, CSS/SASS and HTML.
         </p>
       </div>
