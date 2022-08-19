@@ -23,7 +23,7 @@ function Portfolio() {
             <img src={item.thumb} alt={item.alt} />
           </div>
           <div className="card-header">
-            <h2>{item.appName}</h2>
+            <h3>{item.appName}</h3>
             <span>....</span>
             <p>{item.shortDescription}</p>
             <button
@@ -32,14 +32,14 @@ function Portfolio() {
               onClick={() => handleDisplay(item.id)}
             >
               {display.includes(item.id) ? (
-                <i className="fa fa-minus"></i>
+                <span>Read Less</span>
               ) : (
-                <i className="fa fa-plus"></i>
+                <span>Read More</span>
               )}
             </button>
             {display.includes(item.id) ? (
               <>
-                <h2>User Story</h2>
+                <h3>User Story</h3>
                 <p>{item.description}</p>
               </>
             ) : null}
