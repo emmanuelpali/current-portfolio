@@ -1,6 +1,6 @@
-# Portfolio Screenshot below
+### Portfolio Screenshot below
 
-![portfolio screenshot] (images/portfolio.png)
+![portfolio screenshot] (.../images/portfolio.png)
 
 ## Available Scripts
 
