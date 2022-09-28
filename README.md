@@ -1,7 +1,5 @@
 ### Portfolio Screenshot below
 
-![portfolio screenshot] (.../images/portfolio.png)
-
 ## Available Scripts
 
 In the project directory, you can run:

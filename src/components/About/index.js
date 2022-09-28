@@ -47,7 +47,7 @@ const  About = () => {
                 -62 -20 -37 0 -38 1 -37 38 1 90 18 255 27 264 12 12 81 37 105 38 10 0 39 -5
                 65 -12z"
                 stroke= "#ffd700"
-                stroke-width= "20"
+                strokeWidth= "20"
                 strokeLinecap="round"
                 strokeLinejoin="round"/>
             </g>
