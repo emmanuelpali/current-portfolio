@@ -1,4 +1,5 @@
-### Portfolio Screenshot below
+
+![](https://github.com/Thesixth/current-portfolio/blob/master/src/images/portfolio.png)
 
 ## Available Scripts
 
