@@ -1,10 +1,6 @@
-### Portfolio Screenshot below
 
-<<<<<<< HEAD
 ![](https://github.com/Thesixth/current-portfolio/blob/master/src/images/portfolio.png)
 
-=======
->>>>>>> e388558 (adding card component and updating sass structure)
 ## Available Scripts
 
 In the project directory, you can run:
