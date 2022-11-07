@@ -1,11 +1,21 @@
-import spacewindow from "../images/spacewindow.png";
+import nextStore from "../images/nextstore.png";
 import liquidSix from "../images/liquidSix.png";
 import vanhike from "../images/vanhike.png";
-import students from "../images/students.png";
 
 const portfolioContent = [
   {
-    id: 3,
+    id: 1,
+    thumb: nextStore,
+    alt: "",
+    appName: "Lightly",
+    description:
+      "This is an e-commerce website that sells used funiture and accessories. I used this project to get a better understancing of Nextjs, React-toast and context",
+    shortDescription:
+      "The application was developed and designed using Nextjs, Tailwind CSS and MongoDB.",
+    webAddress: "https://nextjs-store-dt5036yaf-thesixth.vercel.app/",
+  },
+  {
+    id: 2,
     thumb: liquidSix,
     alt: "",
     appName: "Liquid Six",
@@ -16,7 +26,7 @@ const portfolioContent = [
     webAddress: "https://protected-ridge-51693.herokuapp.com",
   },
   {
-    id: 4,
+    id: 3,
     thumb: vanhike,
     alt: "",
     appName: "VanHike",
@@ -26,28 +36,6 @@ const portfolioContent = [
       "An Express web application that allows users to share their hiking experiences and images.",
     webAddress: "https://vanhike.herokuapp.com/",
   },
-  {
-    id: 1,
-    thumb: spacewindow,
-    alt: "",
-    appName: "Space Window",
-    description:
-      "The application displays 12 images from NASA's apod API. Users are able to like and unlike images. A user can go pick a date to view images taken before that day.",
-    shortDescription:
-      "This react application has been published using git-hub pages",
-    webAddress: "https://thesixth.github.io/spacewindow/",
-  },
-  {
-    id: 2,
-    thumb: students,
-    alt: "",
-    appName: "Class-List",
-    description:
-      "User's are able to search for members by name. Add tags to individual class members and view member grades",
-    shortDescription: "This is a React application hosted on AWS",
-    webAddress: "https://master.d1w2t2e2vja4em.amplifyapp.com/",
-  },
-  
 ];
 
 export default portfolioContent;

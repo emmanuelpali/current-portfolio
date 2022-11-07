@@ -1,26 +1,25 @@
-.intro-text{
-    padding-top:  30px;
-    h1 {
-        color:  #fff;
-        font-size: 2.5rem;
-        margin: 0;
-        font-family: Coolvetica;
-        font-weight: 400;
+.intro-text {
+  padding: 40px;
+  margin: 0 auto;
+  h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: Coolvetica;
+    font-weight: 500;
 
-        &::after {
-            content: '|';
-            color:  #fff;
-            padding-bottom: 10px;
-            font-size: 2.5rempx;
-            animation: blink 1s step-start infinite;
-        }
-       
+    &::after {
+      content: "|";
+      color: #fff;
+      padding-bottom: 10px;
+      font-size: 2.5rempx;
+      animation: blink 1s step-start infinite;
     }
-
+  }
 }
 
 @keyframes blink {
-    50% {
-        opacity: 0
-    }
+  50% {
+    opacity: 0;
+  }
 }
