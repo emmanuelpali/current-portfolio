@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 const Intro = () => {
   const [letterClass, setLetterClass] = useState("");
-  const nameArray = `Hi, I'm Emmanuel. A React developer with a working knowledge of full stack development. Checkout my projects below.`;
+  const nameArray = `Hi, I'm Emmanuel, a React developer with a working knowledge of full stack development. Checkout my projects below.`;
 
   useEffect(() => {
     const timeout = setTimeout(() => {
