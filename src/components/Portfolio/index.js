@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import './index.scss'
+import "./index.scss";
 import portfolioContent from "../../DATA/data";
 import Card from "../Card";
 
@@ -15,17 +15,17 @@ function Portfolio() {
       setDisplay(newDisplay);
     }
   };
-  
 
   return (
     <div className="main-content">
-      <h2>My Projects</h2>
+      <h2>Projects</h2>
       {data.map((item) => (
-        <Card 
-        item={item} 
-        handleDisplay={handleDisplay}
-        display={display} 
-        key={item.id}/>
+        <Card
+          item={item}
+          handleDisplay={handleDisplay}
+          display={display}
+          key={item.id}
+        />
       ))}
     </div>
   );
