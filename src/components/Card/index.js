@@ -1,18 +1,17 @@
 import React from "react";
 import "./index.scss";
+import BootstrapCard from "react-bootstrap/Card";
 
 const Card = ({ item, handleDisplay, display }) => {
   return (
-    <div className="card">
-      <div className="card-img">
-        <img src={item.thumb} alt={item.alt} />
-      </div>
-      <div className="card-header">
-        <h3>{item.appName}</h3>
+    <BootstrapCard className="text-center card-css">
+      <BootstrapCard.Img className="fluid" src={item.thumb} />
+      <BootstrapCard.Body className="card-body-css">
+        <BootstrapCard.Title>{item.appName}</BootstrapCard.Title>
         <span>....</span>
-        <p>{item.shortDescription}</p>
+        <BootstrapCard.Text>{item.shortDescription}</BootstrapCard.Text>
         <button
-          className="btn"
+          className="flat-button btn"
           id={item.id}
           onClick={() => handleDisplay(item.id)}
         >
@@ -24,20 +23,20 @@ const Card = ({ item, handleDisplay, display }) => {
         </button>
         {display.includes(item.id) ? (
           <>
-            <h3>User Story</h3>
-            <p>{item.description}</p>
+            <BootstrapCard.Title>Details</BootstrapCard.Title>
+            <BootstrapCard.Text>{item.description}</BootstrapCard.Text>
           </>
         ) : null}
         <a
           href={item.webAddress}
           rel="noreferrer"
           target="_blank"
-          className="btn"
+          className="flat-button btn"
         >
           View
         </a>
-      </div>
-    </div>
+      </BootstrapCard.Body>
+    </BootstrapCard>
   );
 };
 

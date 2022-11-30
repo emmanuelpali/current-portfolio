@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import "./index.scss";
 import portfolioContent from "../../DATA/data";
 import Card from "../Card";
+import Loader from "react-loaders";
 
 function Portfolio() {
   const data = portfolioContent;
@@ -17,17 +18,20 @@ function Portfolio() {
   };
 
   return (
-    <div className="main-content">
-      <h2>Projects</h2>
-      {data.map((item) => (
-        <Card
-          item={item}
-          handleDisplay={handleDisplay}
-          display={display}
-          key={item.id}
-        />
-      ))}
-    </div>
+    <>
+      <div className="main-content container-css">
+        <h1>Projects</h1>
+        {data.map((item) => (
+          <Card
+            item={item}
+            handleDisplay={handleDisplay}
+            display={display}
+            key={item.id}
+          />
+        ))}
+      </div>
+      <Loader type="cube-transition" />
+    </>
   );
 }
 

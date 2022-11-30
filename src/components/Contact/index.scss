@@ -1,0 +1,85 @@
+.social {
+  ul {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    li {
+      display: block;
+      a {
+        font-size: 3rem;
+        color: #fff;
+      }
+
+      a:hover {
+        color: #ffd700;
+      }
+    }
+  }
+}
+
+.contact-form {
+  width: 100%;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      overflow: hidden;
+      display: block;
+      position: relative;
+      opacity: 0;
+      animation: fadeInUp 2s 2s;
+      animation-fill-mode: forwards;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      border: 0;
+      background: #115173;
+      height: 3.5rem;
+      font-size: 2rem;
+      color: #fff;
+      padding: 0 2.5rem;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      width: 100%;
+      border: 0;
+      height: 7em;
+      min-height: 3.5rem;
+      background: #115173;
+      font-size: 2rem;
+      padding: 0 2.5rem;
+      color: #fff;
+      box-sizing: border-box;
+    }
+
+    .flat-button {
+      background: 0 0;
+      font-size: 2rem;
+      letter-spacing: 2.5rem;
+      border-radius: 0.5rem;
+    }
+  }
+}
+
+#drawLogo {
+  stroke-dasharray: 34525.25390625;
+  stroke-dashoffset: 34525.25390625;
+  animation: sign 7s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sign {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

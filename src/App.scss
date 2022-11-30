@@ -1,24 +1,36 @@
-$color-primary: #2e223c;
+@import "animate.css";
+@import "~loaders.css/src/animations/cube-transition.scss";
 
-$color-secondary-light: #1baff3;
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("assets/fonts/helvetica-neu.ttf") format("ttf");
+}
 
-$color-tertiary-light: #74757e;
-$color-tertiary-dark: #393e45;
+@font-face {
+  font-family: "La Belle Aurore";
+  src: url("assets/fonts/LaBelleAurore.woff2") format("woff2");
+}
 
-$color-grey-light-1: #f7f7f7;
+@font-face {
+  font-family: "Coolvetica";
+  src: url("assets/fonts/CoolveticaRg-Regular.woff2") format("woff2");
+}
 
-$color-white: #ffffff;
-$color-black: #000;
+input,
+textarea {
+  font-family: Helvetica Neue;
+}
 
-//font
-$default-font-size: 1.6rem;
-
-$margin-very-big: 20rem;
-$margin-big: 10rem;
-$margin-medium: 5rem;
-$margin-small: 2rem;
-
-//GRID
-$grid-width: 114rem;
-$gutter-vertical: 8rem;
-$gutter-horizontal: 6rem;
+.loader-active {
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 0.5s 1s;
+  animation-fill-mode: forwards;
+}
