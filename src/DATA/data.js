@@ -4,6 +4,17 @@ import vanhike from "../images/vanhike.png";
 
 const portfolioContent = [
   {
+    id: 3,
+    thumb: vanhike,
+    alt: "",
+    appName: "VanHike",
+    description:
+      "Vanhike was developed with Node. I explored EJS as the view engine. Used passport for authentication, cloudinary for image uploads, Mapbox etc. I will keep working on the application design and also make it more secure. The application is hosted on heroku for free. Loading may take some seconds",
+    shortDescription:
+      "An Express web application that allows users to share their hiking experiences and images.",
+    webAddress: "https://vanhike.herokuapp.com/",
+  },
+  {
     id: 1,
     thumb: nextStore,
     alt: "",
