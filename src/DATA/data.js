@@ -1,10 +1,22 @@
 import nextStore from "../images/nextstore.png";
 import liquidSix from "../images/liquidSix.png";
 import vanhike from "../images/vanhike.png";
+import stocks from "../images/stocks.png";
 
 const portfolioContent = [
   {
-    id: 3,
+    id: 2,
+    thumb: stocks,
+    alt: "",
+    appName: "Watch List",
+    description:
+      "For this react application, I explored the use of apexcharts to display stock data. In deploying this application, I learnt that Browser router does not work with github pages. Instead, HashRouter is used",
+    shortDescription:
+      "This app was built using React and is hosted on github pages.",
+    webAddress: "https://emmanuelpali.github.io/mystocks/",
+  },
+  {
+    id: 1,
     thumb: vanhike,
     alt: "",
     appName: "VanHike",
@@ -15,7 +27,7 @@ const portfolioContent = [
     webAddress: "https://vanhike.herokuapp.com/",
   },
   {
-    id: 1,
+    id: 3,
     thumb: nextStore,
     alt: "",
     appName: "Lightly",
@@ -26,7 +38,7 @@ const portfolioContent = [
     webAddress: "https://nextjs-store-dt5036yaf-thesixth.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     thumb: liquidSix,
     alt: "",
     appName: "Liquid Six",
@@ -35,17 +47,6 @@ const portfolioContent = [
     shortDescription:
       "The application was developed and designed using React, Node, Bootstrap and SASS. It is hosting on Heroku",
     webAddress: "https://protected-ridge-51693.herokuapp.com",
-  },
-  {
-    id: 3,
-    thumb: vanhike,
-    alt: "",
-    appName: "VanHike",
-    description:
-      "Vanhike was developed with Node. I explored EJS as the view engine. Used passport for authentication, cloudinary for image uploads, Mapbox etc. I will keep working on the application design and also make it more secure. The application is hosted on heroku for free. Loading may take some seconds",
-    shortDescription:
-      "An Express web application that allows users to share their hiking experiences and images.",
-    webAddress: "https://vanhike.herokuapp.com/",
   },
 ];
 
