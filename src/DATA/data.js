@@ -24,7 +24,7 @@ const portfolioContent = [
       "Vanhike was developed with Node. I explored EJS as the view engine. Used passport for authentication, cloudinary for image uploads, Mapbox etc. I will keep working on the application design and also make it more secure. The application is hosted on heroku for free. Loading may take some seconds",
     shortDescription:
       "An Express web application that allows users to share their hiking experiences and images.",
-    webAddress: "https://vanhike.herokuapp.com/",
+    webAddress: "https://github.com/emmanuelpali/vanhike",
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ const portfolioContent = [
       "This is a restaurant design I intend to show prospective client when freelancing. I enjoyed working on this because it gave me the opportunity to explore my creative and writing skills.",
     shortDescription:
       "The application was developed and designed using React, Node, Bootstrap and SASS. It is hosting on Heroku",
-    webAddress: "https://protected-ridge-51693.herokuapp.com",
+    webAddress: "https://github.com/emmanuelpali/liquidSix-front",
   },
 ];
 
