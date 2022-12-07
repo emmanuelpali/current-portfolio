@@ -38,7 +38,9 @@ const Home = () => {
               idx={nameArray.length + 4}
             />
           </h1>
-          <h2>I have fullstack javaScript skills and a little bit of python</h2>
+          <h2>
+            I have fullstack javaScript skills and a working knowledge of python
+          </h2>
           <Link to="/portfolio" className="flat-button">
             My Projects
           </Link>

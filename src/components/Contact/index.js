@@ -62,7 +62,7 @@ const Contact = () => {
               <a
                 target="_blank"
                 rel="noopener"
-                href="https://github.com/Thesixth"
+                href="https://github.com/emmanuelpali"
               >
                 <FontAwesomeIcon icon={faGithub} color="#4d4d4de" />
               </a>
