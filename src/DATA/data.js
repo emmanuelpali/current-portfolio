@@ -5,6 +5,17 @@ import stocks from "../images/stocks.png";
 
 const portfolioContent = [
   {
+    id: 3,
+    thumb: nextStore,
+    alt: "",
+    appName: "Lightly",
+    description:
+      "This is an e-commerce website that sells used funiture and accessories. I used this project to get a better understancing of Nextjs, React-toast and context",
+    shortDescription:
+      "The application was developed and designed using Nextjs, Tailwind CSS and MongoDB.",
+    webAddress: "https://nextjs-store-pali.vercel.app/",
+  },
+  {
     id: 2,
     thumb: stocks,
     alt: "",
@@ -26,17 +37,7 @@ const portfolioContent = [
       "An Express web application that allows users to share their hiking experiences and images.",
     webAddress: "https://github.com/emmanuelpali/vanhike",
   },
-  {
-    id: 3,
-    thumb: nextStore,
-    alt: "",
-    appName: "Lightly",
-    description:
-      "This is an e-commerce website that sells used funiture and accessories. I used this project to get a better understancing of Nextjs, React-toast and context",
-    shortDescription:
-      "The application was developed and designed using Nextjs, Tailwind CSS and MongoDB.",
-    webAddress: "https://nextjs-store-dt5036yaf-thesixth.vercel.app/",
-  },
+
   {
     id: 4,
     thumb: liquidSix,
