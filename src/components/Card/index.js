@@ -4,7 +4,7 @@ import BootstrapCard from "react-bootstrap/Card";
 
 const Card = ({ item, handleDisplay, display }) => {
   return (
-    <div className="card  text-bg-warning  col-md-5 mb-5 p-0">
+    <div className="card border-top  text-bg-dark shadow-lg  col-md-5 my-5 p-0">
       <img className="card-img-top  card-img shadow" src={item.thumb} />
       <div className="card-body">
         <h2 className="card-title">{item.appName}</h2>
@@ -34,6 +34,7 @@ const Card = ({ item, handleDisplay, display }) => {
         >
           View
         </a>
+        <hr/>
       </div>
     </div>
   );

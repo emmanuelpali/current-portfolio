@@ -20,12 +20,20 @@
 }
 
 .logo {
-  width: 50vw;
-  height: 20%;
   margin: 0 auto;
   text-align: center;
 }
 
+.logo {
+  a {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.logo svg {
+  height: 200px;
+}
 
 #drawLogo {
   stroke-dasharray: 34525.25390625;

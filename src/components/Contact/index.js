@@ -47,7 +47,7 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        <div className="logo">
+        <div className="logo row">
           <svg
             version="1.0"
             xmlns="http://www.w3.org/2000/svg"
