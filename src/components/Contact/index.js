@@ -7,6 +7,7 @@ import AnimatedLetters from "../AnimatedLetter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import pdf from "../../images/emmanuel-pali-portfolio-resume.pdf";
+import NavFix from "../NavFix/NavFix";
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -99,7 +100,9 @@ const Contact = () => {
             />
           </h1>
           <a className="btn flat-button" href={pdf} target="_blank" download>Download my Resume</a>
+          <NavFix />
         </div>
+        
       </div>
       <Loader type="cube-transition" />
     </>

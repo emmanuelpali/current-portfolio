@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container-css home-page">
+      <div className="container-css  home-page">
         <NewAbout />
         <div className="text-zone">
           <h1>
