@@ -18,9 +18,14 @@
   }
 }
 
-.short-description {
-  height: 60px;
+.card .short-description, .card p {
+  color:  #ffd700;
+ 
   font-size: 17px;
+}
+
+.card .short-description {
+  height: 60px;
 }
 
 .card-img {
