@@ -4,8 +4,8 @@ import BootstrapCard from "react-bootstrap/Card";
 
 const Card = ({ item, handleDisplay, display }) => {
   return (
-    <div className="card border-top  text-bg-dark shadow-lg  col-md-5 my-5 p-0">
-      <img className="card-img-top  card-img shadow" src={item.thumb} />
+    <div className="card border-top  text-bg-dark shadow-lg  col-md-5 my-5 px-5">
+      <img className="card-img-top pt-5  card-img shadow" src={item.thumb} />
       <div className="card-body">
         <h2 className="card-title">{item.appName}</h2>
         <hr/>
