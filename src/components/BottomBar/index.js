@@ -8,8 +8,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Sidebar = () => (
-  <div className="nav-bar">
+const BottomBar = () => (
+  <div className="nav-bar mt-5">
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
@@ -42,4 +42,4 @@ const Sidebar = () => (
   </div>
 );
 
-export default Sidebar;
+export default BottomBar;

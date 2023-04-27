@@ -4,12 +4,12 @@ import BootstrapCard from "react-bootstrap/Card";
 
 const Card = ({ item, handleDisplay, display }) => {
   return (
-    <BootstrapCard className="text-center card-css">
-      <BootstrapCard.Img className="fluid" src={item.thumb} />
-      <BootstrapCard.Body className="card-body-css">
-        <BootstrapCard.Title>{item.appName}</BootstrapCard.Title>
-        <span>....</span>
-        <BootstrapCard.Text>{item.shortDescription}</BootstrapCard.Text>
+    <div className="card  text-bg-warning  col-md-5 mb-5 p-0">
+      <img className="card-img-top  card-img shadow" src={item.thumb} />
+      <div className="card-body">
+        <h2 className="card-title">{item.appName}</h2>
+        <hr/>
+        <p class="card-text short-description">{item.shortDescription}</p>
         <button
           className="flat-button btn"
           id={item.id}
@@ -23,8 +23,7 @@ const Card = ({ item, handleDisplay, display }) => {
         </button>
         {display.includes(item.id) ? (
           <>
-            <BootstrapCard.Title>Details</BootstrapCard.Title>
-            <BootstrapCard.Text>{item.description}</BootstrapCard.Text>
+            <p class="card-text">{item.description}</p>
           </>
         ) : null}
         <a
@@ -35,8 +34,8 @@ const Card = ({ item, handleDisplay, display }) => {
         >
           View
         </a>
-      </BootstrapCard.Body>
-    </BootstrapCard>
+      </div>
+    </div>
   );
 };
 

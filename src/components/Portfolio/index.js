@@ -2,7 +2,9 @@ import React, { useState, useRef, useEffect } from "react";
 import "./index.scss";
 import portfolioContent from "../../DATA/data";
 import Card from "../Card";
+import NavFix from "../NavFix/NavFix";
 import Loader from "react-loaders";
+
 
 function Portfolio() {
   const data = portfolioContent;
@@ -19,7 +21,7 @@ function Portfolio() {
 
   return (
     <>
-      <div className="main-content container-css">
+      <div className="row justify-content-around main-content container-css">
         <h1>Projects</h1>
         {data.map((item) => (
           <Card
@@ -29,6 +31,7 @@ function Portfolio() {
             key={item.id}
           />
         ))}
+        <NavFix />
       </div>
       <Loader type="cube-transition" />
     </>

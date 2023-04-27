@@ -39,7 +39,7 @@ const Home = () => {
             />
           </h1>
           <h2>
-            I have fullstack javaScript skills and a working knowledge of python
+            I am a fullstack developer with Javascript and C# skills
           </h2>
           <Link to="/portfolio" className="flat-button">
             My Projects

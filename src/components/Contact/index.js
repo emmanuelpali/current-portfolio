@@ -6,10 +6,10 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import pdf from "../../images/emmanuel-pali-portfolio-resume.pdf";
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const [success, setSuccess] = useState("");
   const textArray = "Contact Me".split("");
 
   useEffect(() => {
@@ -20,29 +20,6 @@ const Contact = () => {
 
   const formRef = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_6bxqte7",
-        "contact_form",
-        formRef.current,
-        "7WT57JXHCF-oZOHG9"
-      )
-      .then(
-        (result) => {
-          formRef.current.reset();
-          setSuccess("Message Sent");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    setTimeout(() => {
-      setSuccess("");
-    }, 3000);
-  };
 
   return (
     <>
@@ -69,7 +46,7 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        <div className="text-zone">
+        <div className="logo">
           <svg
             version="1.0"
             xmlns="http://www.w3.org/2000/svg"
@@ -121,39 +98,7 @@ const Contact = () => {
               idx={15}
             />
           </h1>
-          <div className="contact-form">
-            <form ref={formRef} onSubmit={sendEmail}>
-              <ul>
-                <li className="half">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Full Name"
-                    required
-                  />
-                </li>
-                <li className="half">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    required
-                  />
-                </li>
-                <li className="half">
-                  <textarea
-                    name="message"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </li>
-                <li className="sent">{success}</li>
-                <li className="half">
-                  <input type="submit" value="Send" className="flat-button" />
-                </li>
-              </ul>
-            </form>
-          </div>
+          <a className="btn flat-button" href={pdf} target="_blank" download>Download my Resume</a>
         </div>
       </div>
       <Loader type="cube-transition" />

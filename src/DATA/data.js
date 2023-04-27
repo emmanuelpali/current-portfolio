@@ -1,54 +1,79 @@
-import nextStore from "../images/nextstore.png";
-import liquidSix from "../images/liquidSix.png";
-import vanhike from "../images/vanhike.png";
-import stocks from "../images/stocks.png";
+import newport from "../images/newPortfolio.png";
+import reactPortImg from "../images/react.png";
+import InlandImg from "../images/InlandMarina.png";
+import mystocks from "../images/mystocks.png";
+import kenyansImg from "../images/kenyans.png";
+import touchofAfricaImg from "../images/touch.png";
 
 const portfolioContent = [
   {
-    id: 3,
-    thumb: nextStore,
+    id: 1,
+    thumb: newport,
     alt: "",
-    appName: "Lightly",
+    appName: "HTML In Motion",
     description:
-      "This is an e-commerce website that sells used funiture and accessories. I used this project to get a better understancing of Nextjs, React-toast and context",
+      "This Portfolio site was developed using HTML, CSS, Bootstrap, and Vanilla JavaScript. It is hosted on GitHub and published using GitHub pages. Github helps with continous integration and deployment",
     shortDescription:
-      "The application was developed and designed using Nextjs, Tailwind CSS and MongoDB.",
-    webAddress: "https://nextjs-store-pali.vercel.app/",
+      "This was an assignment but I decided to have fun with it using CSS and Javascript animations",
+    webAddress: "https://emmanuelpali.github.io/newPortfolio/",
   },
   {
     id: 2,
-    thumb: stocks,
+    thumb: InlandImg,
+    alt: "",
+    appName: "Inland Marina",
+    description:
+      "This application is developed using the SOLID principles of design. The code is available on github.",
+    shortDescription:
+      "C# MVC application.",
+    webAddress: "https://github.com/emmanuelpali/InlandMarina",
+  },
+ 
+  {
+    id: 3,
+    thumb: touchofAfricaImg,
+    alt: "",
+    appName: "E-Commerce Store",
+    description:
+      "I set up this freelance project for a client in Vancouver. Through this experience, I learned that even with the availability of technology, clients may have preferences for what they are accustomed to.",
+    shortDescription:
+      "A client's store set up on shopify",
+    webAddress: "https://touchofafrica.ca/",
+  },
+  {
+    id: 4,
+    thumb: mystocks,
     alt: "",
     appName: "Watch List",
     description:
-      "For this react application, I explored the use of apexcharts to display stock data. In deploying this application, I learnt that Browser router does not work with github pages. Instead, HashRouter is used",
+      "This is a React project that I created to display real-time stock prices. I was able to retrieve the latest stock data and visualize it in an easy-to-read format. A user can see whether a selected stock price had increased or decreased since the previous day. Through this project, I gained valuable experience in working with APIs and manipulating data.",
     shortDescription:
       "This app was built using React and is hosted on github pages.",
     webAddress: "https://emmanuelpali.github.io/mystocks/",
   },
   {
-    id: 1,
-    thumb: vanhike,
+    id: 5,
+    thumb: kenyansImg,
     alt: "",
-    appName: "VanHike",
+    appName: "KENBC",
     description:
-      "Vanhike was developed with Node. I explored EJS as the view engine. Used passport for authentication, cloudinary for image uploads, Mapbox etc. I will keep working on the application design and also make it more secure. The application is hosted on heroku for free. Loading may take some seconds",
+      "This project involved working closely with two other individuals. Despite the occasional disagreements, we were able to maintain our friendships and work towards a common goal, which was to create a website that met the needs of the community. In addition to the technical skills involved in building the website, I also learned valuable lessons about communication, collaboration, and conflict resolution.",
     shortDescription:
-      "An Express web application that allows users to share their hiking experiences and images.",
-    webAddress: "https://github.com/emmanuelpali/vanhike",
+      "A Client's Website developed using Wordpress.",
+    webAddress: "https://kenyacommunitybc.org",
   },
-
   {
-    id: 4,
-    thumb: liquidSix,
+    id: 6,
+    thumb: reactPortImg,
     alt: "",
-    appName: "Liquid Six",
+    appName: "React Portfolio",
     description:
-      "This is a restaurant design I intend to show prospective client when freelancing. I enjoyed working on this because it gave me the opportunity to explore my creative and writing skills.",
+      "My Website, developed using the React library. In addition to showcasing my love for the color blue, I experimented with a new navigation design style. For continuous integration, AWS Amplify is connected to my git-hub repository. I used React-router, CSS loaders and SASS and Bootstrap.",
     shortDescription:
-      "The application was developed and designed using React, Node, Bootstrap and SASS. It is hosting on Heroku",
-    webAddress: "https://github.com/emmanuelpali/liquidSix-front",
+      "My Portfolio is built with React It is hosted on AWS",
+    webAddress: "https://www.paliemmanuel.com/",
   },
+ 
 ];
 
 export default portfolioContent;
