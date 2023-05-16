@@ -9,7 +9,7 @@ const Card = ({ item, handleDisplay, display }) => {
       <div className="card-body">
         <h2 className="card-title">{item.appName}</h2>
         <hr/>
-        <p class="card-text short-description">{item.shortDescription}</p>
+        <p className="card-text short-description">{item.shortDescription}</p>
         <button
           className="flat-button btn"
           id={item.id}
@@ -23,7 +23,7 @@ const Card = ({ item, handleDisplay, display }) => {
         </button>
         {display.includes(item.id) ? (
           <>
-            <p class="card-text">{item.description}</p>
+            <p className="card-text">{item.description}</p>
           </>
         ) : null}
         <a

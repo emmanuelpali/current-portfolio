@@ -1,13 +1,38 @@
 import newport from "../images/newPortfolio.png";
+import travel from "../images/travel.png";
+import movies from "../images/movies.png";
 import reactPortImg from "../images/react.png";
 import InlandImg from "../images/InlandMarina.png";
-import mystocks from "../images/mystocks.png";
-import kenyansImg from "../images/kenyans.png";
 import touchofAfricaImg from "../images/touch.png";
 
 const portfolioContent = [
   {
     id: 1,
+    thumb: movies,
+    alt: "",
+    appName: "Movies App",
+    description:
+      `Users can fetch popular movies by clicking a button on page load. RapidAPI's API is being used to get movies' data. The hosted application is automatically redeployed from my GitHub repository with each
+      new push, as part of the CI/CD process. This was a one-day project for an internship assessment, developed according to the
+      provided employer specifications`,
+    shortDescription:
+      "This is a React application that fetches data from a public data using an API",
+    webAddress: "https://movies-mu-sand.vercel.app/",
+  },
+  {
+    id: 2,
+    thumb: travel,
+    alt: "",
+    appName: "Travel Experts",
+    description:
+      `For this .NET MVC application using Microsoft SQL Server and SQL, I led database scaffolding, design, and styling while also providing support to my team. Blended the flexibility of CSS with the ease-of-use of Bootstrap, resulting in a captivating and
+      responsive web application`,
+    shortDescription:
+      `Collaborated with a team of 4 to build a dynamic .NET MVC application using Microsoft SQL Server and SQL.`,
+    webAddress: `https://github.com/emmanuelpali/TravelExperts-2`,
+  },
+  {
+    id: 3,
     thumb: newport,
     alt: "",
     appName: "HTML In Motion",
@@ -18,7 +43,7 @@ const portfolioContent = [
     webAddress: "https://emmanuelpali.github.io/newPortfolio/",
   },
   {
-    id: 2,
+    id: 4,
     thumb: InlandImg,
     alt: "",
     appName: "Inland Marina",
@@ -30,7 +55,7 @@ const portfolioContent = [
   },
  
   {
-    id: 3,
+    id: 5,
     thumb: touchofAfricaImg,
     alt: "",
     appName: "E-Commerce Store",
@@ -41,29 +66,7 @@ const portfolioContent = [
     webAddress: "https://touchofafrica.ca/",
   },
   {
-    id: 4,
-    thumb: mystocks,
-    alt: "",
-    appName: "Watch List",
-    description:
-      "This is a React project that I created to display real-time stock prices. I was able to retrieve the latest stock data and visualize it in an easy-to-read format. A user can see whether a selected stock price had increased or decreased since the previous day. Through this project, I gained valuable experience in working with APIs and manipulating data.",
-    shortDescription:
-      "This app was built using React and is hosted on github pages.",
-    webAddress: "https://emmanuelpali.github.io/mystocks/",
-  },
-  {
-    id: 5,
-    thumb: kenyansImg,
-    alt: "",
-    appName: "KENBC",
-    description:
-      "This project involved working closely with two other individuals. Despite the occasional disagreements, we were able to maintain our friendships and work towards a common goal, which was to create a website that met the needs of the community. In addition to the technical skills involved in building the website, I also learned valuable lessons about communication, collaboration, and conflict resolution.",
-    shortDescription:
-      "A Client's Website developed using Wordpress.",
-    webAddress: "https://kenyacommunitybc.org",
-  },
-  {
-    id: 6,
+    id: 8,
     thumb: reactPortImg,
     alt: "",
     appName: "React Portfolio",
