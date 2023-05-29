@@ -27,7 +27,7 @@
     "sass": "^1.54.4",
     "web-vitals": "^1.1.0"
   },
-  "homepage": "http://paliemmanuel.com",
+  "homepage": "http://www.paliemmanuel.com",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
