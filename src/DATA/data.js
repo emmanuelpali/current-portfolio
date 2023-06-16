@@ -28,7 +28,7 @@ const portfolioContent = [
       `For this .NET MVC application using Microsoft SQL Server and SQL, I led database scaffolding, design, and styling while also providing support to my team. Blended the flexibility of CSS with the ease-of-use of Bootstrap, resulting in a captivating and
       responsive web application`,
     shortDescription:
-      `Collaborated with a team of 4 to build a dynamic .NET MVC application using Microsoft SQL Server and SQL.`,
+      `Collaborated with a team of 4 to build a dynamic .NET MVC application.`,
     webAddress: `https://github.com/emmanuelpali/TravelExperts-2`,
   },
   {
