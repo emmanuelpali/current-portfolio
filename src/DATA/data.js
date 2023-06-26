@@ -1,13 +1,23 @@
-import newport from "../images/newPortfolio.png";
+import wehikers from "../images/wehikers.png";
 import travel from "../images/travel.png";
 import movies from "../images/movies.png";
 import reactPortImg from "../images/react.png";
-import InlandImg from "../images/InlandMarina.png";
-import touchofAfricaImg from "../images/touch.png";
 
 const portfolioContent = [
   {
     id: 1,
+    thumb: wehikers,
+    alt: "",
+    appName: "WeHikers",
+    description:
+      `I learmed how to handle image uploads, authenticate, use session and flash in express. As part of the CI/CD process The hosted application is automatically redeployed from my GitHub repository with each
+      new push. I used Mapbox, bootstrap and more`,
+    shortDescription:
+      "This is a Node/Express application that stores data in MongoDB and cloudinary",
+    webAddress: "https://movies-mu-sand.vercel.app/",
+  },
+  {
+    id: 2,
     thumb: movies,
     alt: "",
     appName: "Movies App",
@@ -20,7 +30,7 @@ const portfolioContent = [
     webAddress: "https://movies-mu-sand.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     thumb: travel,
     alt: "",
     appName: "Travel Experts",
@@ -31,42 +41,9 @@ const portfolioContent = [
       `Collaborated with a team of 4 to build a dynamic .NET MVC application.`,
     webAddress: `https://github.com/emmanuelpali/TravelExperts-2`,
   },
-  {
-    id: 3,
-    thumb: newport,
-    alt: "",
-    appName: "HTML In Motion",
-    description:
-      "This Portfolio site was developed using HTML, CSS, Bootstrap, and Vanilla JavaScript. It is hosted on GitHub and published using GitHub pages. Github helps with continous integration and deployment",
-    shortDescription:
-      "This was an assignment but I decided to have fun with it using CSS and Javascript animations",
-    webAddress: "https://emmanuelpali.github.io/newPortfolio/",
-  },
+
   {
     id: 4,
-    thumb: InlandImg,
-    alt: "",
-    appName: "Inland Marina",
-    description:
-      "This application is developed using the SOLID principles of design. The code is available on github.",
-    shortDescription:
-      "C# MVC application.",
-    webAddress: "https://github.com/emmanuelpali/InlandMarina",
-  },
- 
-  {
-    id: 5,
-    thumb: touchofAfricaImg,
-    alt: "",
-    appName: "E-Commerce Store",
-    description:
-      "I set up this freelance project for a client in Vancouver. Through this experience, I learned that even with the availability of technology, clients may have preferences for what they are accustomed to.",
-    shortDescription:
-      "A client's store set up on shopify",
-    webAddress: "https://touchofafrica.ca/",
-  },
-  {
-    id: 8,
     thumb: reactPortImg,
     alt: "",
     appName: "React Portfolio",
